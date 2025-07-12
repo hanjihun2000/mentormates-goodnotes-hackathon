@@ -1,0 +1,50 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Paper background -->
+  <rect width="400" height="500" fill="#FEFEFE"/>
+  
+  <!-- Lined paper effect -->
+  <defs>
+    <pattern id="lines" x="0" y="0" width="400" height="25" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="24" x2="400" y2="24" stroke="#E5E5EA" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="500" fill="url(#lines)"/>
+  
+  <!-- Red margin line -->
+  <line x1="50" y1="0" x2="50" y2="500" stroke="#FF9999" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="70" y="40" font-family="Kalam, cursive" font-size="24" font-weight="bold" fill="#1C1C1E">
+    To-Do List
+  </text>
+  
+  <!-- Date -->
+  <text x="70" y="65" font-family="Kalam, cursive" font-size="14" fill="#8E8E93">
+    January 15, 2024
+  </text>
+  
+  <!-- Tasks -->
+  <g font-family="Kalam, cursive" font-size="16" fill="#1C1C1E">
+    <text x="70" y="110">• Client presentation for Q1 strategy - Tuesday 10AM</text>
+    <text x="70" y="140">• Team bonding lunch - New restaurant - Wednesday 12PM</text>
+    <text x="70" y="170">• Leadership training workshop - Thursday 2PM</text>
+    <text x="70" y="200">• Weekly standup with development team - Friday 9AM</text>
+    <text x="70" y="230">• Performance review preparation - Monday 3PM</text>
+    <text x="70" y="260">• Budget planning meeting with finance</text>
+    <text x="70" y="290">• 1-on-1 with team members this week</text>
+  </g>
+  
+  <!-- Some handwritten style elements -->
+  <path d="M 65 115 Q 68 113 70 115" stroke="#1C1C1E" stroke-width="2" fill="none"/>
+  <path d="M 65 145 Q 68 143 70 145" stroke="#1C1C1E" stroke-width="2" fill="none"/>
+  <path d="M 65 175 Q 68 173 70 175" stroke="#1C1C1E" stroke-width="2" fill="none"/>
+  <path d="M 65 205 Q 68 203 70 205" stroke="#1C1C1E" stroke-width="2" fill="none"/>
+  <path d="M 65 235 Q 68 233 70 235" stroke="#1C1C1E" stroke-width="2" fill="none"/>
+  
+  <!-- Highlight on important task -->
+  <rect x="68" y="98" width="280" height="18" fill="#FFCC02" opacity="0.3" rx="2"/>
+  
+  <!-- Small doodle -->
+  <circle cx="350" cy="400" r="15" fill="none" stroke="#007AFF" stroke-width="2"/>
+  <path d="M 345 400 L 350 395 L 355 400" stroke="#007AFF" stroke-width="2" fill="none"/>
+</svg> 

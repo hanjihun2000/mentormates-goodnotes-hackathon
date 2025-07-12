@@ -1,0 +1,15 @@
+{
+  "short_name": "ScriptSchedule",
+  "name": "ScriptSchedule - AI-Powered Planning from Handwritten Notes",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#007AFF",
+  "background_color": "#FEFEFE"
+} 

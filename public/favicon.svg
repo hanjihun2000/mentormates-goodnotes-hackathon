@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#F8F9FA" stroke="#E9ECEF" strokeWidth="2"/>
+  
+  <!-- Pen body -->
+  <path d="M 45 60 L 35 150 Q 35 155 40 155 L 50 155 Q 55 155 55 150 L 65 60 Q 65 55 60 50 L 50 50 Q 45 55 45 60 Z" 
+        fill="#3498DB"/>
+  
+  <!-- Pen tip -->
+  <path d="M 45 150 L 55 150 L 50 165 Q 47.5 167 50 167 Q 52.5 167 50 165 Z" 
+        fill="#2C3E50"/>
+  
+  <!-- Calendar body -->
+  <rect x="90" y="80" width="80" height="70" rx="8" fill="#5DADE2"/>
+  <rect x="95" y="90" width="70" height="55" rx="4" fill="white"/>
+  
+  <!-- Calendar header -->
+  <rect x="95" y="90" width="70" height="15" rx="4" fill="#3498DB"/>
+  
+  <!-- Calendar dates -->
+  <rect x="107" y="112" width="6" height="6" rx="1" fill="#F39C12"/>
+  <rect x="127" y="122" width="6" height="6" rx="1" fill="#E67E22"/>
+  <rect x="137" y="112" width="6" height="6" rx="1" fill="#F39C12"/>
+</svg> 
